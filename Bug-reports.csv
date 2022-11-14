@@ -1,0 +1,247 @@
+﻿"Issue Id","Project","Tags","Summary","Reporter","Created","Updated","Resolved","Priority","Type","State","Assignee","Sprints","Story points","Environment","QASE TC # (only for bug)","Description","Votes"
+"G11-210","group1.1","Star","TO-DO MVP: GUI bug incorrect text wrapping","oleksiibudkov","7 Nov 2022","8 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (Почему с андроид студио столько приключений)
+
+**ACT**
+
+The text doesn't wrap correctly. It's hard to see what was written before
+
+![](Title cyrillic letters bug gui perenos.png){width=70%}
+
+**EXP**
+
+The text wrap correctly. It's easy to see what was written before
+
+
+
+
+
+
+
+
+
+
+","0"
+"G11-205","group1.1","Star","TO-DO MVP: Statistics tab shows not reading values ​​of completed notes","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Task","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**Pre-conditions**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (1. ""Artsiom; 2. ""Rusau""; 3. ""QA"")
+4. Create three different notes
+5. Change value 1. ""Artsiom""; 2. ""Rusau"" to completed 
+
+![](Rusau artsiom.png){width=70%}
+
+**STR**
+
+1.  Open statistics tab
+2. Check completed values 
+
+**ACT**
+
+The field ""Completed tasks"" has an invalid value. Completed tasks : 0
+
+![](Rusau artsiom statistic.png){width=70%}
+
+**EXP**
+
+The field ""Completed tasks"" has an correct value. Comleted tasks : 2","0"
+"G11-209","group1.1","Star","TO-DO MVP:  When you hover over elements, they are not highlighted","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""TO-DO"" MVP app
+2. Hover over fields and menu items 
+
+**ACT**
+
+Element and menu items are not highlighted
+
+**EXP**
+
+Element and menu items are highlited
+
+
+","0"
+"G11-208","group1.1","Star","TO-DO MVP:  Landscape orientation not working","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**Pre-conditions**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (1. ""Artsiom; 2. ""Rusau""; 3. ""QA"")
+
+   ![](Rusau artsiom.png){width=70%}
+
+**STR**
+
+Rotate mobile device horizontally
+
+**ACT**
+
+Landscape orientation not working
+
+![](Rusau artsiom polya krutyatsa.png){width=70%}
+
+**EXP**
+
+Landscape orientation is working ","0"
+"G11-207","group1.1","Star","TO-DO MVP: Button ""Active"" doesn't show only active tasks in app","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**Pre-conditions**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (1. ""Artsiom; 2. ""Rusau""; 3. ""QA"")
+4. Create three different notes
+
+![](Rusau artsiom.png){width=70%}
+
+**STR**
+
+1. Click on the ""Filter"" button
+2. Click on the ""Active"" button
+
+**ACT**
+
+Nothing in the app has changed
+
+**EXP**
+
+Button ""Active"" show only active tasks in app","0"
+"G11-206","group1.1","Star","TO-DO MVP: Button ""Clear completed"" doesn't delete completed notes ","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**Pre-conditions**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (1. ""Artsiom; 2. ""Rusau""; 3. ""QA"")
+4. Create three different notes
+
+![](Rusau artsiom.png){width=70%}
+
+**STR**
+
+1. Click on the ""⋮"" button
+2. Click on the ""Clear completed"" button 
+
+**ACT**
+
+Nothing in the app has changed 
+
+**EXP**
+
+Delete ""Completed tasks"" from app ","0"
+"G11-204","group1.1","Star","TO-DO MVP:  There is no message about validation below the ""Title"" field","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Minor","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""NEW TO-DO MVP""
+2. Check under ""Title"" field 
+
+**ACT**
+
+There is no message about validation below the ""Title"" field
+
+![](GUI placeholder.png){width=70%}
+
+**EXP**
+
+There is message about validation below the ""Title"" field
+
+
+","0"
+"G11-202","group1.1","Star","TO-DO MVP: Missing app navigation","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Normal","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+Open the ""NEW TO-DO MVP""
+
+**ACT**
+
+App without navigation
+
+![](Navigation.png){width=70%}
+
+**EXP**
+
+App have navigation","0"
+"G11-201","group1.1","Star","TO-DO MVP:  The description field is active in which you can enter values(latin letters,cyrillic letters,numbers,special characters)","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR:**
+
+1. Click on the description field 
+2. Description lines turn red and cursor appears at the beginning 
+3. Enter the text into description field (Say Hello to Artsiom)
+
+   ![](Title latin letters description field .png){width=70%}
+4. Create an entry with a button ""[✓](https://unicode-table.com/ru/2713/)""
+
+**ACT:**
+
+Note is created in the ""TO-DO MVP""
+
+![](Title latin letters description field created .png){width=70%}
+
+**EXP:**
+
+Description field is not active, has text about validation","0"
+"G11-200","group1.1","Star","TO-DO MVP: Return to the previous screen with the button ""←""","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Major","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Title"" field
+3. Enter the text into ""Title"" field (Say Hello to Artsiom) **latin letters**
+
+   ![](Title Say hello.png){width=70%}
+4. Click the button ""←""
+
+**ACT**
+
+Button does not return on the previous page 
+
+![](Mobile back.mp4)
+
+**EXP**
+
+Back to the page ""All TO-DO MVP""
+
+
+","0"
+"G11-199","group1.1","Star","TO-DO MVP: App crashes after clicking ""Refresh"" button","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Critical","Task","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""NEW TO-DO MVP""
+2. Click on the ""Refresh"" button
+
+**ACT**
+
+App crashes after clicking ""Refresh"" button
+
+![](Crush.png){width=70%}
+
+[crush refresh.txt](crush refresh.txt)
+
+**EXP**
+
+The application updates the list of notes
+
+
+
+
+
+
+","0"
+"G11-198","group1.1","Star","TO-DO MVP: Entering numbers and special characters in the field causes the application to crash","oleksiibudkov","7 Nov 2022","7 Nov 2022",,"Critical","Bug","Open","Unassigned","Нет версии исправления",,"Google Pixel 3a;  Android 10.0;   Android SDK built for x86;   Номер сборки: QSR1.190920.001","No qase tc # (only for bug)","**STR**
+
+1. Open the ""NEW TO-DO MVP""
+
+2. Click on the ""Title"" field
+
+3. Enter the text into ""Title"" field (Say Hello to Artsiom123!@#) **latin letters, numbers, special charcters**
+
+4. ![](Title latin letters cyrillic letters minimize.png){width=70%}
+
+Create an entry with a button ""[✓](https://unicode-table.com/ru/2713/)""
+
+**ACT:**
+
+
+App crashed
+
+![](Crush.png){width=70%}
+
+
+
+[logcrush.txt](logcrush.txt)
+
+**EXP:**
+
+Note is created in the ""TO-DO MVP""","0"
